@@ -25,6 +25,9 @@ export const Navigation = ({ onLoginClick, isLoggedIn }: NavigationProps) => {
                 <Link to="/workout" className="text-foreground hover:text-primary transition-colors font-medium">
                   Workout Entry
                 </Link>
+                <Link to="/exercises" className="text-foreground hover:text-primary transition-colors font-medium">
+                  Exercises
+                </Link>
                 <Link to="/dashboard" className="text-foreground hover:text-primary transition-colors font-medium">
                   Dashboard
                 </Link>
